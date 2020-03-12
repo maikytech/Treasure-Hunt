@@ -11,7 +11,15 @@ class Player
 {
 public:
 
+    bool isGameOver = false;
+
     Player();
+    void CallInput();
+
+protected:
+
+    int horizontal;
+    int vertical;
 
 };
 

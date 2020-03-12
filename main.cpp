@@ -11,7 +11,14 @@ using namespace std;
 
 int main()
 {
+    //bool isGameOver = false;
+    Player hero;
 
+    while (hero.isGameOver == false)
+    {
+        hero.CallInput();
+    }
+    
     
 
     return 0;
